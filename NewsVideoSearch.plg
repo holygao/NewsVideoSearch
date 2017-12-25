@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NewsVideoSearch - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/NewsVideoSearch.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+strmbasd.lib uuid.lib winmm.lib quartz.lib ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/NewsVideoSearch.pdb" /debug /machine:I386 /out:"Debug/NewsVideoSearch.exe" /pdbtype:sept 
+".\Debug\CDXGraph.obj"
+".\Debug\NewsVideoSearch.obj"
+".\Debug\NewsVideoSearchDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SV_Error.obj"
+".\Debug\NewsVideoSearch.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp"
+<h3>Output Window</h3>
+Compiling...
+NewsVideoSearchDlg.cpp
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(68) : warning C4129: 'N' : unrecognized character escape sequence
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(369) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(390) : warning C4305: '=' : truncation from 'const double' to 'float'
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(809) : warning C4305: '=' : truncation from 'const double' to 'float'
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(824) : warning C4305: '=' : truncation from 'const double' to 'float'
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(839) : warning C4305: '=' : truncation from 'const double' to 'float'
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(439) : warning C4715: 'CNewsVideoSearchDlg::FindDatePos' : not all control paths return a value
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(524) : warning C4715: 'CNewsVideoSearchDlg::GetSegChanlName' : not all control paths return a value
+F:\新闻视频测试程序\NewsVideoSearchAfxBgTh\NewsVideoSearchDlg.cpp(740) : warning C4715: 'CNewsVideoSearchDlg::FindItsSeg' : not all control paths return a value
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/NewsVideoSearch.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\CDXGraph.sbr" ".\Debug\NewsVideoSearch.sbr" ".\Debug\NewsVideoSearchDlg.sbr" ".\Debug\SV_Error.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NewsVideoSearch.exe - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>
